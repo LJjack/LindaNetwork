@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001FC65AB80E0EB3EAE9B711B14DB7C2 /* LDResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B8275EE742190E194B6EE235D7FAA394 /* LDResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0089EE8704AAD2370BBD813E8556631E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC153F8A3476F06C93DF58748B49DC /* YYClassInfo.m */; };
-		05DC8BB865035F814A2AF541F3FC9E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
-		231671209512EE0367915217C439CAF2 /* LDURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F4A8584550CA0450CBDB99EEA0034E /* LDURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27F27437DCDF3C92CD719F0C3CBFBE78 /* LDHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5109E40B8315B27C92989621EAAA721F /* LDHttpClient.m */; };
-		32822A68D02A524939C7DED7628AF667 /* LDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09016ACF3055ED3C920907974723CA09 /* LDRequest.m */; };
-		35966A0DDC8B2D4136972F7EA094765B /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D14BBD75066DA81A14430E9745A33BB9 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3846413D71F10372B741BE61F9DBF673 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAE230FAEB45D1ACAE5D4AEEFDCC9BF /* UIKit.framework */; };
-		3B110E059CBA1F22F3E5AA86DA782180 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC118A3528F77AFF55D6BC065CF7D6C /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EE5603E83899D22FDE19FCD8FF9A719 /* LDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3577A7661FBADBF4903D0C13040C9CEC /* LDRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A8F8AB591B921522DC0620E5DED3708 /* LDHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F421E9FCAFDC2527F0BD08A3A3F5BD /* LDHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08865D351FD1D9CB9DBA266D34257CF1 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC69E4BBDB5593C75E722B8644F843 /* YYMemoryCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		143FA3D21C8802DD80F9E03654A54E95 /* LDRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3ACCAC6554143BF70B3B12FDFCD85F /* LDRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181DE5411C3233FA57081EC539C9AD60 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */; };
+		197B954785A3AA80505B8D928678EAFD /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C356C70A81C2EEB28DBD408FC8D886F /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1882F127C392CE4E92F9B567C40E51 /* LDHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F421E9FCAFDC2527F0BD08A3A3F5BD /* LDHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CBD569F4139E12B21E7BEB7D2422366 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA744B9830B2F1E47BC91E7A2DDE8C /* YYCache-dummy.m */; };
+		36E6B2C3C51E16D4B99E16242A778B14 /* LDAPITool.h in Headers */ = {isa = PBXBuildFile; fileRef = 952B13D6B0716ECD368826605AFBC5F3 /* LDAPITool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		398BB50310403AD05FEAE805A35B7914 /* NSString+LJHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC89BA1A741D3E5FC2EAC826A1DCEB1 /* NSString+LJHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FDBE65F37AEB984C311841D19D8EE95 /* LDURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F4A8584550CA0450CBDB99EEA0034E /* LDURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FFD7450212A2775A2A08F498D69F263 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D14BBD75066DA81A14430E9745A33BB9 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445EEF212229E7D7520C1535E87AC797 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AF048822E3EB6C18D0FEF4F0565A760B /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47EE0D2AF4F037839DE5A3E01AECE8FF /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD9680660D1F5D84878B67DD32C06E3 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488071217F7D532A0C265AC7309DD9EF /* LDAPITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D0D49170CD74482CC9C4B32BB3CD4 /* LDAPITool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4AB445809235F2402B9CBB464CD17F02 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BBDA13862BCFEE116758BAE7441492 /* NSObject+YYModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C85F8A89037BAA993B027406867B8DE /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2EDE3387433454E86CBAA639885096 /* YYModel-dummy.m */; };
+		4CDF58C59CC91043CA47337F7267BAE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
 		52AFC060F415B19878312CDACEB9F4C1 /* Pods-LindaNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C98483E009B1E8F2A30946277D864DC8 /* Pods-LindaNetwork_Tests-dummy.m */; };
-		5A6541168A807D87D341CE79BE0F8C3B /* LDRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CC695791C9A971495CD2B5C34696 /* LDRequestBuilder.m */; };
-		6489BAC9613353D6CCB2DC54BB51941F /* NSString+LJHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D8CA1043B1A9EBFD4BDC6FF1BEFA8 /* NSString+LJHash.m */; };
-		6D8559A67DEA48563143C6DEB2530F39 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C356C70A81C2EEB28DBD408FC8D886F /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E074016451470789F3C147AD088A51E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
-		727F2E68A55937993D2FAD8E24F77370 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */; };
-		73DAA4B77EDD7E7B9126E0FBA41CA1D0 /* LDAPITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D0D49170CD74482CC9C4B32BB3CD4 /* LDAPITool.m */; };
-		75DAD82B8D06E35884D3AC15D2AF4658 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6ECA16A2B96649D03C9CD624E57789 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8314147B9C0087FD49E64485237C16D5 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2EDE3387433454E86CBAA639885096 /* YYModel-dummy.m */; };
+		5C9E7C0594BBA5463642EF0087C5CB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
+		61FC87A54C12786A62D9C8BA27FB5839 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6ECA16A2B96649D03C9CD624E57789 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6231D1ACAD6B60311A3414EFC6820566 /* LDHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5109E40B8315B27C92989621EAAA721F /* LDHttpClient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6B78CD6D70764D77BBF8191597657A51 /* LDURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C718E73FAEE4A9712A5A246D86EDBD /* LDURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		81BC1AD0B07C1CB1E2F6910D731A2BBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87747BBBB82C5F3462509EED3FFE508F /* QuartzCore.framework */; };
 		83ACF6297EB7AA131EA698A884B2E008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
-		89F662A6315226269520E3D93240F0C8 /* LDURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C718E73FAEE4A9712A5A246D86EDBD /* LDURLRequestSerialization.m */; };
-		982D609BC603295149A03140AA644631 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C714C3BD69D9AC467BA88F7EA379ADF /* YYKVStorage.m */; };
-		9F8F75E790389488FC31C1E767FD145C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
-		A831B0F5F7732B3DC410E9E4D532116D /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC69E4BBDB5593C75E722B8644F843 /* YYMemoryCache.m */; };
-		ACF26FB05DB96A8C8136C1BD6D96DACA /* LDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78538F14B5BA8356C09B4D9DEF336B46 /* LDResponse.m */; };
-		AF1B3840D4D5EE406DA433927518869B /* NSString+LJHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC89BA1A741D3E5FC2EAC826A1DCEB1 /* NSString+LJHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8419E4FA15FC4A7D57C5BA48108C11F0 /* LDResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B8275EE742190E194B6EE235D7FAA394 /* LDResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DACD1B3574E2574A12FC49483F38FC3 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC153F8A3476F06C93DF58748B49DC /* YYClassInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		93EC18E96EA363F2E1FEE5DD0A0892C1 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DB88E5B3734D8B9C816DBF93B34281 /* YYDiskCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96C981A7F0598495B8E86DC829CA198E /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C714C3BD69D9AC467BA88F7EA379ADF /* YYKVStorage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97C1E53841D2B481683065C5D085146C /* LDRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CC695791C9A971495CD2B5C34696 /* LDRequestBuilder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8DEB6292708945A223D4884DAABF41B /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E046A175C8E8A3C964D1F8AB1E68F /* YYCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A92802E11899EF69319AD3686DF1C1C4 /* LDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3577A7661FBADBF4903D0C13040C9CEC /* LDRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22D4BCA79BC935317AE955DA9403CA1 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0528ACB7A9EFFAD6CA23D761128F23D9 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3EF78C8B3BA040FEFBD6E87E8DB51D8 /* Pods-LindaNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067F94AEF3823A9133DDDCF7A3D754E9 /* Pods-LindaNetwork_Example-dummy.m */; };
-		B4115CC3929E5CEBC85795C3CD10D168 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0528ACB7A9EFFAD6CA23D761128F23D9 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4F01484644E6895814E279CCD119F37 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD9680660D1F5D84878B67DD32C06E3 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6606EA0F321BC9CCA883C3918416426 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA744B9830B2F1E47BC91E7A2DDE8C /* YYCache-dummy.m */; };
-		B81801C24A184689EEDB4D0E25A5EF33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87747BBBB82C5F3462509EED3FFE508F /* QuartzCore.framework */; };
-		C0B314509B8094C0E2482C0D86EEB0D5 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E046A175C8E8A3C964D1F8AB1E68F /* YYCache.m */; };
-		DDB0E172BC91F867ADD4D297E1E723DD /* LDRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3ACCAC6554143BF70B3B12FDFCD85F /* LDRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF56F3F1C6330E3D78E4BF7B741FCEB1 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AF048822E3EB6C18D0FEF4F0565A760B /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBF0C42D3ED0F1AEAE52E5BC6E239591 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BBDA13862BCFEE116758BAE7441492 /* NSObject+YYModel.m */; };
-		EDF9E3DD2DB2091BD20D23ECAD64CF7B /* LindaNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB23AAAA436A61A29B5C8095C9EA5EC /* LindaNetwork-dummy.m */; };
+		B40CF941777CF050BCA2DBE2EDC9943F /* NSString+LJHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D8CA1043B1A9EBFD4BDC6FF1BEFA8 /* NSString+LJHash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B6BD046B984888F8AD722C0FB04C06E3 /* LindaNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB23AAAA436A61A29B5C8095C9EA5EC /* LindaNetwork-dummy.m */; };
+		BBA926E12BD3B6C93448146E4C38A6A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAE230FAEB45D1ACAE5D4AEEFDCC9BF /* UIKit.framework */; };
+		E4CA1C881EEAB6C4FF52D25BEBB4BE93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
+		E9F86941D6073F7C1CA330F9F5A28F84 /* LDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78538F14B5BA8356C09B4D9DEF336B46 /* LDResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F172E74F4F07F406785B8012903EFC45 /* LDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09016ACF3055ED3C920907974723CA09 /* LDRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F1DCB138FF0A97C44E52EF46C5EDFB6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
-		F305DFD0B0B94B89E0063876D125C6A6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */; };
-		F5A9340599CD147AB92A96DA57CABD20 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DB88E5B3734D8B9C816DBF93B34281 /* YYDiskCache.m */; };
-		FE322BD7E25FE82A714A45653139DD08 /* LDAPITool.h in Headers */ = {isa = PBXBuildFile; fileRef = 952B13D6B0716ECD368826605AFBC5F3 /* LDAPITool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32BC072673146EAE3C90292F518060B /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC118A3528F77AFF55D6BC065CF7D6C /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC85DE2AB2E0DCDA191C22DF42EEE57 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,28 +55,35 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DA1AEB0ED2C77F0684E6BB933B07E68;
+			remoteGlobalIDString = C42E3D80C5011E6026F787447E970FE2;
 			remoteInfo = LindaNetwork;
+		};
+		82501D1729EF44B76E4B23C008A9F591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365939765A686A0DA0F2A3CA87842622;
+			remoteInfo = YYCache;
 		};
 		8F25D634B1C5801EFF7B5338FFE20CFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDF82B272FF4B2A824729CD459720344;
+			remoteGlobalIDString = 83CD64234154A587147607825E8F18C5;
 			remoteInfo = YYModel;
 		};
 		A65E0020A158D3EC9465A04FEA24013E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 583CA04F87B2343C3FFAC34A3A2BD4B8;
+			remoteGlobalIDString = 365939765A686A0DA0F2A3CA87842622;
 			remoteInfo = YYCache;
 		};
-		C0939093337E681406A20EF730CF906B /* PBXContainerItemProxy */ = {
+		F237A69BFE4DD8BF09258EB5B6DB6FED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDF82B272FF4B2A824729CD459720344;
+			remoteGlobalIDString = 83CD64234154A587147607825E8F18C5;
 			remoteInfo = YYModel;
 		};
 /* End PBXContainerItemProxy section */
@@ -145,6 +152,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		044978943CF0D18DCD8BCCB54663C6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF58C59CC91043CA47337F7267BAE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26487E28DF4C2CCD4C191B41E0302DF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,31 +168,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A7FA1A5AC6B1F157E5CB6ECCCC999AB /* Frameworks */ = {
+		35198ACDBE9E47A76B815AC03F714F00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E074016451470789F3C147AD088A51E /* Foundation.framework in Frameworks */,
+				181DE5411C3233FA57081EC539C9AD60 /* CoreFoundation.framework in Frameworks */,
+				E4CA1C881EEAB6C4FF52D25BEBB4BE93 /* Foundation.framework in Frameworks */,
+				81BC1AD0B07C1CB1E2F6910D731A2BBD /* QuartzCore.framework in Frameworks */,
+				BBA926E12BD3B6C93448146E4C38A6A7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C69AEE7FA8055C090B5729CC6D7FF26E /* Frameworks */ = {
+		48A66B92A889FCDA0B29C3E94F1B82B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F305DFD0B0B94B89E0063876D125C6A6 /* CoreFoundation.framework in Frameworks */,
-				9F8F75E790389488FC31C1E767FD145C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF2E7FBC0954FFCEF8D2B62045971CD0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				727F2E68A55937993D2FAD8E24F77370 /* CoreFoundation.framework in Frameworks */,
-				05DC8BB865035F814A2AF541F3FC9E43 /* Foundation.framework in Frameworks */,
-				B81801C24A184689EEDB4D0E25A5EF33 /* QuartzCore.framework in Frameworks */,
-				3846413D71F10372B741BE61F9DBF673 /* UIKit.framework in Frameworks */,
+				FBC85DE2AB2E0DCDA191C22DF42EEE57 /* CoreFoundation.framework in Frameworks */,
+				5C9E7C0594BBA5463642EF0087C5CB60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,38 +415,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		928B4823891105E8DBD683EEC441FDBF /* Headers */ = {
+		1B8AFFC8B1530990207197E61B8E8D57 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D8559A67DEA48563143C6DEB2530F39 /* YYCache.h in Headers */,
-				DF56F3F1C6330E3D78E4BF7B741FCEB1 /* YYDiskCache.h in Headers */,
-				B4115CC3929E5CEBC85795C3CD10D168 /* YYKVStorage.h in Headers */,
-				75DAD82B8D06E35884D3AC15D2AF4658 /* YYMemoryCache.h in Headers */,
+				197B954785A3AA80505B8D928678EAFD /* YYCache.h in Headers */,
+				445EEF212229E7D7520C1535E87AC797 /* YYDiskCache.h in Headers */,
+				B22D4BCA79BC935317AE955DA9403CA1 /* YYKVStorage.h in Headers */,
+				61FC87A54C12786A62D9C8BA27FB5839 /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6D7DF9F05D412F9B1FB5629CE6A87D0 /* Headers */ = {
+		77E74574C09D41B9EB9A5D07AC996704 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35966A0DDC8B2D4136972F7EA094765B /* NSObject+YYModel.h in Headers */,
-				3B110E059CBA1F22F3E5AA86DA782180 /* YYClassInfo.h in Headers */,
-				B4F01484644E6895814E279CCD119F37 /* YYModel.h in Headers */,
+				3FFD7450212A2775A2A08F498D69F263 /* NSObject+YYModel.h in Headers */,
+				F32BC072673146EAE3C90292F518060B /* YYClassInfo.h in Headers */,
+				47EE0D2AF4F037839DE5A3E01AECE8FF /* YYModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F76C9C9E1B8C0AC4F5BF49BA7BBFC55D /* Headers */ = {
+		D05A79E88B3D9BC17ABCF310ED19AC2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE322BD7E25FE82A714A45653139DD08 /* LDAPITool.h in Headers */,
-				4A8F8AB591B921522DC0620E5DED3708 /* LDHttpClient.h in Headers */,
-				3EE5603E83899D22FDE19FCD8FF9A719 /* LDRequest.h in Headers */,
-				DDB0E172BC91F867ADD4D297E1E723DD /* LDRequestBuilder.h in Headers */,
-				001FC65AB80E0EB3EAE9B711B14DB7C2 /* LDResponse.h in Headers */,
-				231671209512EE0367915217C439CAF2 /* LDURLRequestSerialization.h in Headers */,
-				AF1B3840D4D5EE406DA433927518869B /* NSString+LJHash.h in Headers */,
+				36E6B2C3C51E16D4B99E16242A778B14 /* LDAPITool.h in Headers */,
+				2A1882F127C392CE4E92F9B567C40E51 /* LDHttpClient.h in Headers */,
+				A92802E11899EF69319AD3686DF1C1C4 /* LDRequest.h in Headers */,
+				143FA3D21C8802DD80F9E03654A54E95 /* LDRequestBuilder.h in Headers */,
+				8419E4FA15FC4A7D57C5BA48108C11F0 /* LDResponse.h in Headers */,
+				3FDBE65F37AEB984C311841D19D8EE95 /* LDURLRequestSerialization.h in Headers */,
+				398BB50310403AD05FEAE805A35B7914 /* NSString+LJHash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,13 +472,13 @@
 			productReference = A50B61CACE0B5739BC08D58E70BDB6F7 /* libPods-LindaNetwork_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		583CA04F87B2343C3FFAC34A3A2BD4B8 /* YYCache */ = {
+		365939765A686A0DA0F2A3CA87842622 /* YYCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 024C215C1B00DA000FFC0BB8F9820BB1 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = 013F5648450A4B58D7393FDD86ABC581 /* Build configuration list for PBXNativeTarget "YYCache" */;
 			buildPhases = (
-				03922D47A5D2E65B24BC52F0483518F4 /* Sources */,
-				CF2E7FBC0954FFCEF8D2B62045971CD0 /* Frameworks */,
-				928B4823891105E8DBD683EEC441FDBF /* Headers */,
+				A49E3653DE5B6F9EDA4C7E6C9CB2A88C /* Sources */,
+				35198ACDBE9E47A76B815AC03F714F00 /* Frameworks */,
+				1B8AFFC8B1530990207197E61B8E8D57 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -482,18 +489,36 @@
 			productReference = C6A515AF301F65DC4379250CF6AA1B9A /* libYYCache.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9DA1AEB0ED2C77F0684E6BB933B07E68 /* LindaNetwork */ = {
+		83CD64234154A587147607825E8F18C5 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F359B6B2DB82E5FA418D2B61A5F05A1E /* Build configuration list for PBXNativeTarget "LindaNetwork" */;
+			buildConfigurationList = 171F556E19095335BF6FAA6B59D262C0 /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				E61850D94C9F548D76AB52321F328505 /* Sources */,
-				8A7FA1A5AC6B1F157E5CB6ECCCC999AB /* Frameworks */,
-				F76C9C9E1B8C0AC4F5BF49BA7BBFC55D /* Headers */,
+				ED231AEC342BD78258CCB0885674A10F /* Sources */,
+				48A66B92A889FCDA0B29C3E94F1B82B9 /* Frameworks */,
+				77E74574C09D41B9EB9A5D07AC996704 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				106E573AD2FA25A811A69D801EFAFE7B /* PBXTargetDependency */,
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = C7FC1278950B52576B79A1F70F06A043 /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C42E3D80C5011E6026F787447E970FE2 /* LindaNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828696EA18F74E4FD44906218DA7FE99 /* Build configuration list for PBXNativeTarget "LindaNetwork" */;
+			buildPhases = (
+				DF103A568E18353800519E4C02115109 /* Sources */,
+				044978943CF0D18DCD8BCCB54663C6B4 /* Frameworks */,
+				D05A79E88B3D9BC17ABCF310ED19AC2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E7FFF81627B7F673716FFCCD1FBA03 /* PBXTargetDependency */,
+				F07D89E363D8CD9165B5D6DDAA232FB8 /* PBXTargetDependency */,
 			);
 			name = LindaNetwork;
 			productName = LindaNetwork;
@@ -514,23 +539,6 @@
 			name = "Pods-LindaNetwork_Tests";
 			productName = "Pods-LindaNetwork_Tests";
 			productReference = 28612A20D4616229B5797CFB2075FD21 /* libPods-LindaNetwork_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FDF82B272FF4B2A824729CD459720344 /* YYModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4417FDBDE5A5604030CB8EC179493BD2 /* Build configuration list for PBXNativeTarget "YYModel" */;
-			buildPhases = (
-				CE539A0C62427645DCE9929FCC198C01 /* Sources */,
-				C69AEE7FA8055C090B5729CC6D7FF26E /* Frameworks */,
-				C6D7DF9F05D412F9B1FB5629CE6A87D0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYModel;
-			productName = YYModel;
-			productReference = C7FC1278950B52576B79A1F70F06A043 /* libYYModel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -554,28 +562,16 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DA1AEB0ED2C77F0684E6BB933B07E68 /* LindaNetwork */,
+				C42E3D80C5011E6026F787447E970FE2 /* LindaNetwork */,
 				090E19A7089D5574B1076475F1A13044 /* Pods-LindaNetwork_Example */,
 				EAC6AC6AF087EC9C969828EFD351088A /* Pods-LindaNetwork_Tests */,
-				583CA04F87B2343C3FFAC34A3A2BD4B8 /* YYCache */,
-				FDF82B272FF4B2A824729CD459720344 /* YYModel */,
+				365939765A686A0DA0F2A3CA87842622 /* YYCache */,
+				83CD64234154A587147607825E8F18C5 /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03922D47A5D2E65B24BC52F0483518F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6606EA0F321BC9CCA883C3918416426 /* YYCache-dummy.m in Sources */,
-				C0B314509B8094C0E2482C0D86EEB0D5 /* YYCache.m in Sources */,
-				F5A9340599CD147AB92A96DA57CABD20 /* YYDiskCache.m in Sources */,
-				982D609BC603295149A03140AA644631 /* YYKVStorage.m in Sources */,
-				A831B0F5F7732B3DC410E9E4D532116D /* YYMemoryCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		09D95D9E78241C8AD2D9C94155ECD142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -592,28 +588,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE539A0C62427645DCE9929FCC198C01 /* Sources */ = {
+		A49E3653DE5B6F9EDA4C7E6C9CB2A88C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF0C42D3ED0F1AEAE52E5BC6E239591 /* NSObject+YYModel.m in Sources */,
-				0089EE8704AAD2370BBD813E8556631E /* YYClassInfo.m in Sources */,
-				8314147B9C0087FD49E64485237C16D5 /* YYModel-dummy.m in Sources */,
+				2CBD569F4139E12B21E7BEB7D2422366 /* YYCache-dummy.m in Sources */,
+				A8DEB6292708945A223D4884DAABF41B /* YYCache.m in Sources */,
+				93EC18E96EA363F2E1FEE5DD0A0892C1 /* YYDiskCache.m in Sources */,
+				96C981A7F0598495B8E86DC829CA198E /* YYKVStorage.m in Sources */,
+				08865D351FD1D9CB9DBA266D34257CF1 /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E61850D94C9F548D76AB52321F328505 /* Sources */ = {
+		DF103A568E18353800519E4C02115109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73DAA4B77EDD7E7B9126E0FBA41CA1D0 /* LDAPITool.m in Sources */,
-				27F27437DCDF3C92CD719F0C3CBFBE78 /* LDHttpClient.m in Sources */,
-				32822A68D02A524939C7DED7628AF667 /* LDRequest.m in Sources */,
-				5A6541168A807D87D341CE79BE0F8C3B /* LDRequestBuilder.m in Sources */,
-				ACF26FB05DB96A8C8136C1BD6D96DACA /* LDResponse.m in Sources */,
-				89F662A6315226269520E3D93240F0C8 /* LDURLRequestSerialization.m in Sources */,
-				EDF9E3DD2DB2091BD20D23ECAD64CF7B /* LindaNetwork-dummy.m in Sources */,
-				6489BAC9613353D6CCB2DC54BB51941F /* NSString+LJHash.m in Sources */,
+				488071217F7D532A0C265AC7309DD9EF /* LDAPITool.m in Sources */,
+				6231D1ACAD6B60311A3414EFC6820566 /* LDHttpClient.m in Sources */,
+				F172E74F4F07F406785B8012903EFC45 /* LDRequest.m in Sources */,
+				97C1E53841D2B481683065C5D085146C /* LDRequestBuilder.m in Sources */,
+				E9F86941D6073F7C1CA330F9F5A28F84 /* LDResponse.m in Sources */,
+				6B78CD6D70764D77BBF8191597657A51 /* LDURLRequestSerialization.m in Sources */,
+				B6BD046B984888F8AD722C0FB04C06E3 /* LindaNetwork-dummy.m in Sources */,
+				B40CF941777CF050BCA2DBE2EDC9943F /* NSString+LJHash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED231AEC342BD78258CCB0885674A10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB445809235F2402B9CBB464CD17F02 /* NSObject+YYModel.m in Sources */,
+				8DACD1B3574E2574A12FC49483F38FC3 /* YYClassInfo.m in Sources */,
+				4C85F8A89037BAA993B027406867B8DE /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,31 +631,173 @@
 		06120AC9B8CB3B58AA157C3E316B1771 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYModel;
-			target = FDF82B272FF4B2A824729CD459720344 /* YYModel */;
+			target = 83CD64234154A587147607825E8F18C5 /* YYModel */;
 			targetProxy = 8F25D634B1C5801EFF7B5338FFE20CFB /* PBXContainerItemProxy */;
-		};
-		106E573AD2FA25A811A69D801EFAFE7B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = FDF82B272FF4B2A824729CD459720344 /* YYModel */;
-			targetProxy = C0939093337E681406A20EF730CF906B /* PBXContainerItemProxy */;
 		};
 		1595A9AA0C7FE54F2B8FB1B5913FDB86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYCache;
-			target = 583CA04F87B2343C3FFAC34A3A2BD4B8 /* YYCache */;
+			target = 365939765A686A0DA0F2A3CA87842622 /* YYCache */;
 			targetProxy = A65E0020A158D3EC9465A04FEA24013E /* PBXContainerItemProxy */;
+		};
+		97E7FFF81627B7F673716FFCCD1FBA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = 365939765A686A0DA0F2A3CA87842622 /* YYCache */;
+			targetProxy = 82501D1729EF44B76E4B23C008A9F591 /* PBXContainerItemProxy */;
 		};
 		EFD480C77BD8D51C285B9C260382342B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LindaNetwork;
-			target = 9DA1AEB0ED2C77F0684E6BB933B07E68 /* LindaNetwork */;
+			target = C42E3D80C5011E6026F787447E970FE2 /* LindaNetwork */;
 			targetProxy = 7DAE2739771D8BEB073E1EAB3A1C1781 /* PBXContainerItemProxy */;
+		};
+		F07D89E363D8CD9165B5D6DDAA232FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 83CD64234154A587147607825E8F18C5 /* YYModel */;
+			targetProxy = F237A69BFE4DD8BF09258EB5B6DB6FED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C64940BA729EBF7711772C52E90FC52 /* Release */ = {
+		19D842080B39EF9475D958054ACC76A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2750021BD79A487700207063FCBB9635 /* Pods-LindaNetwork_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8203359877DC8F156B2B7D8C887F6472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECEE8BA4FEE1CCD6BE2BA520A29203D /* Pods-LindaNetwork_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		873F9FA0F090A65BCB94930C51252292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D240EAA6B989D683CF7386128500CC /* Pods-LindaNetwork_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9AB03F3D482CE6EB50874D22D0957705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LindaNetwork/LindaNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A14DA5648637B60EA0BF45C5BBD28F23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */;
 			buildSettings = {
@@ -670,7 +820,76 @@
 			};
 			name = Release;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		ABEFE43CA68CEC8148919C2C48CA6F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441918B992C25577243865252B74070B /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B2315EF76F2FCF500C22A6655730B58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441918B992C25577243865252B74070B /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BB3A04FC6458B2CB783DA093D5B82ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE45F63B4230E81715EBD016097D3505 /* Pods-LindaNetwork_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -710,7 +929,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -718,166 +937,7 @@
 			};
 			name = Debug;
 		};
-		52B3BAC9E7735390114D9520CB007558 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE45F63B4230E81715EBD016097D3505 /* Pods-LindaNetwork_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5C2F69581049BBEB314E63C58D79BCC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 441918B992C25577243865252B74070B /* YYModel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		68E4E2EE58560C9993C30AC59C346BB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LindaNetwork/LindaNetwork-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7C709549ABD998E085A343227076C17A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DECEE8BA4FEE1CCD6BE2BA520A29203D /* Pods-LindaNetwork_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		81E605B84D2CDD2B5B44238CB0532F31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D7E715577B35C02FC26E5CDE4FAE6F6 /* YYCache.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8398025FA90038C7828F53779512C315 /* Debug */ = {
+		F422DF2B0BB4BBA8F4E6E1C18D88A5A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D7E715577B35C02FC26E5CDE4FAE6F6 /* YYCache.xcconfig */;
 			buildSettings = {
@@ -900,9 +960,9 @@
 			};
 			name = Debug;
 		};
-		9F08CBCC00F961C5BEF7E834A1A31D36 /* Release */ = {
+		FA231FB8541D11A1EBBE28C65FA81064 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2750021BD79A487700207063FCBB9635 /* Pods-LindaNetwork_Example.release.xcconfig */;
+			baseConfigurationReference = 1D7E715577B35C02FC26E5CDE4FAE6F6 /* YYCache.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -910,30 +970,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C36E9C8C90EEAF2BC359C14CAA8D615A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 441918B992C25577243865252B74070B /* YYModel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -941,29 +978,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C4A8426B6BB7EB274CF9BC942346B276 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44D240EAA6B989D683CF7386128500CC /* Pods-LindaNetwork_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -972,11 +986,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		024C215C1B00DA000FFC0BB8F9820BB1 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		013F5648450A4B58D7393FDD86ABC581 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8398025FA90038C7828F53779512C315 /* Debug */,
-				81E605B84D2CDD2B5B44238CB0532F31 /* Release */,
+				F422DF2B0BB4BBA8F4E6E1C18D88A5A9 /* Debug */,
+				FA231FB8541D11A1EBBE28C65FA81064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171F556E19095335BF6FAA6B59D262C0 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEFE43CA68CEC8148919C2C48CA6F3F /* Debug */,
+				B2315EF76F2FCF500C22A6655730B58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -984,17 +1007,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4417FDBDE5A5604030CB8EC179493BD2 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C2F69581049BBEB314E63C58D79BCC6 /* Debug */,
-				C36E9C8C90EEAF2BC359C14CAA8D615A /* Release */,
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1002,8 +1016,17 @@
 		644C7741353A08C5EBD4FB89E4773C6F /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C709549ABD998E085A343227076C17A /* Debug */,
-				C4A8426B6BB7EB274CF9BC942346B276 /* Release */,
+				8203359877DC8F156B2B7D8C887F6472 /* Debug */,
+				873F9FA0F090A65BCB94930C51252292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828696EA18F74E4FD44906218DA7FE99 /* Build configuration list for PBXNativeTarget "LindaNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB03F3D482CE6EB50874D22D0957705 /* Debug */,
+				A14DA5648637B60EA0BF45C5BBD28F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1011,17 +1034,8 @@
 		9E4E11E3EB6A51C4C0D436EEC19818FE /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52B3BAC9E7735390114D9520CB007558 /* Debug */,
-				9F08CBCC00F961C5BEF7E834A1A31D36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F359B6B2DB82E5FA418D2B61A5F05A1E /* Build configuration list for PBXNativeTarget "LindaNetwork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68E4E2EE58560C9993C30AC59C346BB4 /* Debug */,
-				0C64940BA729EBF7711772C52E90FC52 /* Release */,
+				BB3A04FC6458B2CB783DA093D5B82ECC /* Debug */,
+				19D842080B39EF9475D958054ACC76A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

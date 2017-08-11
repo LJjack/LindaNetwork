@@ -1,5 +1,6 @@
 PODS:
   - LindaNetwork (0.1.0):
+    - YYCache
     - YYModel
   - YYCache (1.0.4)
   - YYModel (1.0.4)
@@ -14,10 +15,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LindaNetwork: 95f9a3e18b3f62f21cd954bfdc901dd8a19910e4
+  LindaNetwork: 80518448d2db60a79b449f74bab4e0a776d22e30
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 20a75088494a7f2a0074630dc8eb00cde23ba0f6
+PODFILE CHECKSUM: 0b235776106b78b512bff0d50ef6885edbf4233c
 
 COCOAPODS: 1.2.1
