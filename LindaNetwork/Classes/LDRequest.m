@@ -30,7 +30,6 @@
     }
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@%@",  self.baseAddress, self.contextPath, self.methodName, urlParam]];
     
-    BJLog(@"==%@",url);
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:0 timeoutInterval:self.timeout];
     [request setHTTPShouldHandleCookies:NO];
     [request setHTTPMethod:self.httpMethod];
@@ -57,7 +56,6 @@
     }
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@%@",  self.baseAddress, self.contextPath, self.methodName, urlParam]];
     
-    BJLog(@"=uploadRequest=%@",url);
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:0 timeoutInterval:self.timeout];
     NSMutableArray *fileMArray = [NSMutableArray array];
     [self.uploadFileArray enumerateObjectsUsingBlock:^(NSData * _Nonnull fileData, NSUInteger idx, BOOL * _Nonnull stop) {
