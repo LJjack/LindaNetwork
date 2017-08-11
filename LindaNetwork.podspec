@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.author           = { 'LJjack' => '945980335@qq.com' }
   s.source           = { :git => 'https://github.com/LJjack/LindaNetwork.git', :tag => s.version.to_s }
   s.social_media_url = 'http://www.jianshu.com/u/5dfbfbe6f284'
-  s.platform     = :ios, '8.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LindaNetwork/Classes/**/*'
+  s.dependency 'YYModel'
 
 end

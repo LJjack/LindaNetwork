@@ -1,16 +1,19 @@
 PODS:
   - LindaNetwork (0.1.0)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - LindaNetwork (from `../`)
+  - YYModel
 
 EXTERNAL SOURCES:
   LindaNetwork:
     :path: ../
 
 SPEC CHECKSUMS:
-  LindaNetwork: 4c717534d9fbbead58d812f79d90f99f6dce425a
+  LindaNetwork: d713ca3bde6610d2774c45876433fc8c5488ea03
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ba5327bf910482b1c24570d9b4890eebf4c3a6c5
+PODFILE CHECKSUM: 14ebeefaa8a073546a626f595a0e4dd8f2f4042c
 
 COCOAPODS: 1.2.1

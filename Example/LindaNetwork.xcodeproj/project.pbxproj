@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF0D3122C49F7EFDADA6E6B /* libPods-LindaNetwork_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA694094D31AD9F9999D8BC /* libPods-LindaNetwork_Tests.a */; };
+		3630D726E28455F7516E1C62 /* libPods-LindaNetwork_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDD738AEFFFFA4E70629650 /* libPods-LindaNetwork_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		94EDA6D843C3E9D2BAEB9B15 /* Pods_LindaNetwork_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2DB932FD4FC9F92E59449F /* Pods_LindaNetwork_Example.framework */; };
-		9CF5FAA559870EDBEFAA9FCA /* Pods_LindaNetwork_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC82956BE700261E1ADA824 /* Pods_LindaNetwork_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0C37EA16304228C0AFF6B54D /* Pods-LindaNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LindaNetwork_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LindaNetwork_Example/Pods-LindaNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3A2DB932FD4FC9F92E59449F /* Pods_LindaNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LindaNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2E7E0B4D20AB0079B73289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CC7F754B24F0833A428BD62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5FC82956BE700261E1ADA824 /* Pods_LindaNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LindaNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LindaNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LindaNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993D2F2C90D75685EA5CB24C /* Pods-LindaNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LindaNetwork_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LindaNetwork_Tests/Pods-LindaNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEDD738AEFFFFA4E70629650 /* libPods-LindaNetwork_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LindaNetwork_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA694094D31AD9F9999D8BC /* libPods-LindaNetwork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LindaNetwork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				94EDA6D843C3E9D2BAEB9B15 /* Pods_LindaNetwork_Example.framework in Frameworks */,
+				3630D726E28455F7516E1C62 /* libPods-LindaNetwork_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9CF5FAA559870EDBEFAA9FCA /* Pods_LindaNetwork_Tests.framework in Frameworks */,
+				0FF0D3122C49F7EFDADA6E6B /* libPods-LindaNetwork_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3A2DB932FD4FC9F92E59449F /* Pods_LindaNetwork_Example.framework */,
-				5FC82956BE700261E1ADA824 /* Pods_LindaNetwork_Tests.framework */,
+				DEDD738AEFFFFA4E70629650 /* libPods-LindaNetwork_Example.a */,
+				FAA694094D31AD9F9999D8BC /* libPods-LindaNetwork_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

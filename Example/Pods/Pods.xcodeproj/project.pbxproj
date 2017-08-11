@@ -7,147 +7,214 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09BDC4512F2F826209DC242F3BC4F458 /* Pods-LindaNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59AF8500811379F469D5D1B71D379BE /* Pods-LindaNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15E9C44E3EDE1FBCE801B3DF1EAF43B7 /* Pods-LindaNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 796AE5EF36951458DC96DF3F187D10C5 /* Pods-LindaNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8FB16737DED7026D8E21B654D13AF0 /* Pods-LindaNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F711CF090A4F6C731708978D32452BA8 /* Pods-LindaNetwork_Tests-dummy.m */; };
-		4C2A723FF570040F0A9672CAF62FF0B8 /* LindaNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AF9B470F6F91BEDB1215CEF49385B5 /* LindaNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80ED4E188358721A9E1EDC95014B1AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		83450F491F3D9AD100655325 /* LDAPITool.h in Headers */ = {isa = PBXBuildFile; fileRef = 83450F3C1F3D9AD100655325 /* LDAPITool.h */; };
-		83450F4A1F3D9AD100655325 /* LDAPITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 83450F3D1F3D9AD100655325 /* LDAPITool.m */; };
-		83450F4B1F3D9AD100655325 /* LDHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 83450F3E1F3D9AD100655325 /* LDHttpClient.h */; };
-		83450F4C1F3D9AD100655325 /* LDHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 83450F3F1F3D9AD100655325 /* LDHttpClient.m */; };
-		83450F4D1F3D9AD100655325 /* LDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 83450F401F3D9AD100655325 /* LDRequest.h */; };
-		83450F4E1F3D9AD100655325 /* LDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83450F411F3D9AD100655325 /* LDRequest.m */; };
-		83450F4F1F3D9AD100655325 /* LDRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 83450F421F3D9AD100655325 /* LDRequestBuilder.h */; };
-		83450F501F3D9AD100655325 /* LDRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83450F431F3D9AD100655325 /* LDRequestBuilder.m */; };
-		83450F511F3D9AD100655325 /* LDResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 83450F441F3D9AD100655325 /* LDResponse.h */; };
-		83450F521F3D9AD100655325 /* LDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 83450F451F3D9AD100655325 /* LDResponse.m */; };
-		83450F531F3D9AD100655325 /* LDURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 83450F471F3D9AD100655325 /* LDURLRequestSerialization.h */; };
-		83450F541F3D9AD100655325 /* LDURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 83450F481F3D9AD100655325 /* LDURLRequestSerialization.m */; };
-		AB9879AF363C1A4DCFEA6335B265B756 /* LindaNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C21170ED55BF0C1D35799BF5D0AAA90 /* LindaNetwork-dummy.m */; };
-		AC7301673C3DE8EC55476EDC7C554A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D0BF04E09B59A61838017EECDCFD5EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FCD441D72B1F580BBFE4CD3595AF6661 /* Pods-LindaNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C467AD9E4FE6BFF6C16AEDD22C77D35A /* Pods-LindaNetwork_Example-dummy.m */; };
+		0084D4BCE168E8E1B8B89D2C2768BDF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		1213FDE7CC3D318B91CB7F3A99F1716F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		1470411559A2AB2FFB0379BD571BE39C /* LindaNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB23AAAA436A61A29B5C8095C9EA5EC /* LindaNetwork-dummy.m */; };
+		2854A9781B9AA2D587F397BD2EF9D326 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D653E82F3B41AD2EEA39CDF63C74DA /* YYClassInfo.m */; };
+		3D9055F128C5CEAA1FE9AD41107C14DE /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 11970526A8B1A6822C3AF3D0FBCB605A /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B002D878A8A9DD2FDE27EE3BC4A89F /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 744D2183AE239C7C8329C9599802AF79 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453DCF74FCFCEE95DC58CF7DD259C3CE /* LDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A3833970200B586984F179E2C82868 /* LDResponse.m */; };
+		52AFC060F415B19878312CDACEB9F4C1 /* Pods-LindaNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C98483E009B1E8F2A30946277D864DC8 /* Pods-LindaNetwork_Tests-dummy.m */; };
+		636746DC158C6729A5EB800617AB91D0 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA05213ABDAD1463D5999A67C0C8647 /* NSObject+YYModel.m */; };
+		6599D8EDE2A2B1726B8317980B37EFA5 /* LDHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 918C2F421D20CEB32250DA58201E53F5 /* LDHttpClient.m */; };
+		6822EC76F8A0C9086CB07B9550717390 /* LDURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F2567BBB8CDC238B1A20CF8EB3D7BE /* LDURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68F10756F8B2BB4DAFF2FA0372597EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		837DE67B319920D85998ED1BBCF4D9F4 /* LDHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A60A78443C4A17E6FC10310263E10F56 /* LDHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83ACF6297EB7AA131EA698A884B2E008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */; };
+		93966E063B98F818F72446BFD9379FE0 /* LDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D326A15809BB9C179A4E9F8CB955C56C /* LDRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9935C1FDAFAC02261AEBD3A20C272298 /* LDURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 624990729D3F366517C8A583C7B54DC8 /* LDURLRequestSerialization.m */; };
+		A75557E28E554EC9682F6CDBDF430D74 /* Pods-LindaNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067F94AEF3823A9133DDDCF7A3D754E9 /* Pods-LindaNetwork_Example-dummy.m */; };
+		AB0C9663773395619FE06B7F3379AE37 /* LDRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD242D9F513592AC464A45E47032FED /* LDRequestBuilder.m */; };
+		AF67DE9691E16766D86F04AEE3D247A7 /* LDAPITool.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F9D8D62B81686AF6449CE8F675E59F /* LDAPITool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24070DE9E7B6B96F340E59C3B17B62A /* LDAPITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD2FAB7E31A86CABCCAC13B88B3D2BB /* LDAPITool.m */; };
+		C6494B1A8D326D4E4EF87FE6175F1400 /* LDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 681888D185ED78209F81D9DDBCEBAD55 /* LDRequest.m */; };
+		C7DD78A819196214B9604592C5CEA779 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D10ADCC380C1C28DF2251EE5012D5C5E /* YYModel-dummy.m */; };
+		DE09CFFE1109D63FF5A7E9CF34DCAE46 /* LDResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5051D8C2708F0CCF96799465CA0B490B /* LDResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1EE901CE7E957C2F110257F21D6C6B2 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4574A1CC7237F4EA8DDF35E8341C80BD /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FF7F93DE9D4E93D64766AC02F6D358 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5470A02991650B65ACC8AAE40C677 /* CoreFoundation.framework */; };
+		FA6C4B78FF3085902572DD99E4F6FBA1 /* LDRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E9829EC2749FC3EAE25F94A1AEA072 /* LDRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C21280482531820046F496EC8A3DA79 /* PBXContainerItemProxy */ = {
+		9E7CF369D1CE14B7582D325FC7A1E273 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CF9BB74E57CA5AC84ECFF8A5B0168BD;
+			remoteGlobalIDString = DE9439DD342EE2BB69578F16101FC358;
 			remoteInfo = LindaNetwork;
+		};
+		F9F76B7D022720E618ACE17E0732D8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954C45E99026311D5B1AE42BF06C0818;
+			remoteInfo = YYModel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E7EE98A460F1F28137C292E04C4805A /* Pods-LindaNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1BF68B58EB045AD4A3852BF90617E9C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24AF9B470F6F91BEDB1215CEF49385B5 /* LindaNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LindaNetwork-umbrella.h"; sourceTree = "<group>"; };
-		2A47ACBC0CF6EC52E20D84038B9D45B3 /* Pods-LindaNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LindaNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		318F37AF2FADC1DC101F7C069CA416F4 /* Pods-LindaNetwork_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3297C1CB4355102724E1A68C41E0976F /* Pods-LindaNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LindaNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		371E2A47A8CA8B1947C79B4898032632 /* Pods-LindaNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LindaNetwork_Tests.modulemap"; sourceTree = "<group>"; };
-		3BB2A6D148B9BBB0FDF99ACF64329A40 /* LindaNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LindaNetwork.modulemap; sourceTree = "<group>"; };
-		4D1A0C67DC5DF0CF9AB1E5A82A268F75 /* Pods-LindaNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D670A98E6BB1036B36B4DE712ABF3B1 /* Pods-LindaNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67599447F4E00C4F27E53ADD31D7F2D3 /* Pods-LindaNetwork_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Tests-resources.sh"; sourceTree = "<group>"; };
-		6859C213EE80647D880370A60C021A65 /* Pods_LindaNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LindaNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		796AE5EF36951458DC96DF3F187D10C5 /* Pods-LindaNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LindaNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7B3EDFDC4D60700CE6B15EE06E98900D /* Pods-LindaNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LindaNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83450F3C1F3D9AD100655325 /* LDAPITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDAPITool.h; sourceTree = "<group>"; };
-		83450F3D1F3D9AD100655325 /* LDAPITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAPITool.m; sourceTree = "<group>"; };
-		83450F3E1F3D9AD100655325 /* LDHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHttpClient.h; sourceTree = "<group>"; };
-		83450F3F1F3D9AD100655325 /* LDHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHttpClient.m; sourceTree = "<group>"; };
-		83450F401F3D9AD100655325 /* LDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDRequest.h; sourceTree = "<group>"; };
-		83450F411F3D9AD100655325 /* LDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDRequest.m; sourceTree = "<group>"; };
-		83450F421F3D9AD100655325 /* LDRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDRequestBuilder.h; sourceTree = "<group>"; };
-		83450F431F3D9AD100655325 /* LDRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDRequestBuilder.m; sourceTree = "<group>"; };
-		83450F441F3D9AD100655325 /* LDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDResponse.h; sourceTree = "<group>"; };
-		83450F451F3D9AD100655325 /* LDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDResponse.m; sourceTree = "<group>"; };
-		83450F471F3D9AD100655325 /* LDURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDURLRequestSerialization.h; sourceTree = "<group>"; };
-		83450F481F3D9AD100655325 /* LDURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDURLRequestSerialization.m; sourceTree = "<group>"; };
-		8B14AEE10C42A0F8B99E32BCECA2E6FA /* Pods-LindaNetwork_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Example-resources.sh"; sourceTree = "<group>"; };
-		8C21170ED55BF0C1D35799BF5D0AAA90 /* LindaNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LindaNetwork-dummy.m"; sourceTree = "<group>"; };
-		8EA7896603943649819CE80742616DAA /* Pods-LindaNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9940DE48CDA11D97BEF9E8A11E43B031 /* Pods-LindaNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A3D6C67FADFA327F403FAC21F4977351 /* Pods-LindaNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LindaNetwork_Example.modulemap"; sourceTree = "<group>"; };
-		A59AF8500811379F469D5D1B71D379BE /* Pods-LindaNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LindaNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
-		B58F52318B748D738BA1B86994E776BA /* LindaNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LindaNetwork.xcconfig; sourceTree = "<group>"; };
-		B7EA4A3947445AA145997C98DD68A9D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C467AD9E4FE6BFF6C16AEDD22C77D35A /* Pods-LindaNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LindaNetwork_Example-dummy.m"; sourceTree = "<group>"; };
-		C715802BB47E4500BC9A79B2A31FB214 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D99C48BCACD9CD2F5545F27D63F6DA9B /* Pods_LindaNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LindaNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5E82252051B9F63CC32A8D1B591EDA3 /* Pods-LindaNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LindaNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5ECF530A58C678234EEA04E056DD52F /* LindaNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LindaNetwork-prefix.pch"; sourceTree = "<group>"; };
-		E98B65498F4C396716B6196C929972A3 /* LindaNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LindaNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F711CF090A4F6C731708978D32452BA8 /* Pods-LindaNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LindaNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+		05E50A72B7D1655CAF3EA2BE7EDDB33B /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		067F94AEF3823A9133DDDCF7A3D754E9 /* Pods-LindaNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LindaNetwork_Example-dummy.m"; sourceTree = "<group>"; };
+		0B1F565CC26C6C851BF01AC37B38728A /* Pods-LindaNetwork_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Example-resources.sh"; sourceTree = "<group>"; };
+		11970526A8B1A6822C3AF3D0FBCB605A /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		15F2567BBB8CDC238B1A20CF8EB3D7BE /* LDURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDURLRequestSerialization.h; sourceTree = "<group>"; };
+		16E9829EC2749FC3EAE25F94A1AEA072 /* LDRequestBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDRequestBuilder.h; sourceTree = "<group>"; };
+		1F35EA7023FF0FE5CDA66835D26106CB /* Pods-LindaNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LindaNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2750021BD79A487700207063FCBB9635 /* Pods-LindaNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		31839E809B2B8321272D2649C0FC8CCF /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		44D240EAA6B989D683CF7386128500CC /* Pods-LindaNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4574A1CC7237F4EA8DDF35E8341C80BD /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		4CA05213ABDAD1463D5999A67C0C8647 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		4F6F71B648BE74D12CEDE2C1C98212B7 /* libPods-LindaNetwork_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LindaNetwork_Example.a"; path = "libPods-LindaNetwork_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5051D8C2708F0CCF96799465CA0B490B /* LDResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDResponse.h; sourceTree = "<group>"; };
+		55BBA04CCB7943944D7FB9FDFCDE6D47 /* Pods-LindaNetwork_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5AC5D2DC56373D46A9D1DA4D5E0B9739 /* libPods-LindaNetwork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LindaNetwork_Tests.a"; path = "libPods-LindaNetwork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD242D9F513592AC464A45E47032FED /* LDRequestBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDRequestBuilder.m; sourceTree = "<group>"; };
+		624990729D3F366517C8A583C7B54DC8 /* LDURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDURLRequestSerialization.m; sourceTree = "<group>"; };
+		64851B2194EF512702E986EF31E2A714 /* libLindaNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLindaNetwork.a; path = libLindaNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		660B77BFD55363852C1B6F56DACD20EA /* Pods-LindaNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LindaNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		681888D185ED78209F81D9DDBCEBAD55 /* LDRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDRequest.m; sourceTree = "<group>"; };
+		6CE62E772E7E6664895292E7E02A5B60 /* Pods-LindaNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LindaNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		744D2183AE239C7C8329C9599802AF79 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C80CA42201B6D58737472E90E65974C /* Pods-LindaNetwork_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Tests-resources.sh"; sourceTree = "<group>"; };
+		8DD2FAB7E31A86CABCCAC13B88B3D2BB /* LDAPITool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDAPITool.m; sourceTree = "<group>"; };
+		8EF5470A02991650B65ACC8AAE40C677 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		918C2F421D20CEB32250DA58201E53F5 /* LDHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDHttpClient.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A60A78443C4A17E6FC10310263E10F56 /* LDHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDHttpClient.h; sourceTree = "<group>"; };
+		A6D653E82F3B41AD2EEA39CDF63C74DA /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		A919B6B4F695E08D76178CBFC9EDB1F6 /* LindaNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LindaNetwork-prefix.pch"; sourceTree = "<group>"; };
+		ABB23AAAA436A61A29B5C8095C9EA5EC /* LindaNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LindaNetwork-dummy.m"; sourceTree = "<group>"; };
+		C98483E009B1E8F2A30946277D864DC8 /* Pods-LindaNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LindaNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC77611C461125FC1ECD5759991D6B82 /* Pods-LindaNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D10ADCC380C1C28DF2251EE5012D5C5E /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		D2F9D8D62B81686AF6449CE8F675E59F /* LDAPITool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDAPITool.h; sourceTree = "<group>"; };
+		D326A15809BB9C179A4E9F8CB955C56C /* LDRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDRequest.h; sourceTree = "<group>"; };
+		DD619C5B1DE95E904991C4DB43BC5F74 /* Pods-LindaNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LindaNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DECEE8BA4FEE1CCD6BE2BA520A29203D /* Pods-LindaNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A3833970200B586984F179E2C82868 /* LDResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDResponse.m; sourceTree = "<group>"; };
+		F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LindaNetwork.xcconfig; sourceTree = "<group>"; };
+		FD535BDCFAA6B0A4C35FBB09CC97724A /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		FE45F63B4230E81715EBD016097D3505 /* Pods-LindaNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73D6A4BDBC4D9780F1ABAEB034914E92 /* Frameworks */ = {
+		24F58867F1D979B0553952EFE2443B01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BF04E09B59A61838017EECDCFD5EEF /* Foundation.framework in Frameworks */,
+				1213FDE7CC3D318B91CB7F3A99F1716F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F8641DD5EF111D090B8AB7E86D5CF5D /* Frameworks */ = {
+		26487E28DF4C2CCD4C191B41E0302DF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7301673C3DE8EC55476EDC7C554A73 /* Foundation.framework in Frameworks */,
+				83ACF6297EB7AA131EA698A884B2E008 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		977C5C06FBD44D9538C94D551F140D9C /* Frameworks */ = {
+		295EDD1C5BA96B2C49CD2F43B5CCDB86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80ED4E188358721A9E1EDC95014B1AF7 /* Foundation.framework in Frameworks */,
+				F3FF7F93DE9D4E93D64766AC02F6D358 /* CoreFoundation.framework in Frameworks */,
+				0084D4BCE168E8E1B8B89D2C2768BDF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E2D0FBB23C409F870640D8C189B5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F10756F8B2BB4DAFF2FA0372597EBD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DA6A3C505F0284461C95D2670D556FB /* Pods-LindaNetwork_Example */ = {
+		086DB9B66829FC7581A6E49568FE6D97 /* LindaNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				C715802BB47E4500BC9A79B2A31FB214 /* Info.plist */,
-				A3D6C67FADFA327F403FAC21F4977351 /* Pods-LindaNetwork_Example.modulemap */,
-				E5E82252051B9F63CC32A8D1B591EDA3 /* Pods-LindaNetwork_Example-acknowledgements.markdown */,
-				3297C1CB4355102724E1A68C41E0976F /* Pods-LindaNetwork_Example-acknowledgements.plist */,
-				C467AD9E4FE6BFF6C16AEDD22C77D35A /* Pods-LindaNetwork_Example-dummy.m */,
-				9940DE48CDA11D97BEF9E8A11E43B031 /* Pods-LindaNetwork_Example-frameworks.sh */,
-				8B14AEE10C42A0F8B99E32BCECA2E6FA /* Pods-LindaNetwork_Example-resources.sh */,
-				A59AF8500811379F469D5D1B71D379BE /* Pods-LindaNetwork_Example-umbrella.h */,
-				4D1A0C67DC5DF0CF9AB1E5A82A268F75 /* Pods-LindaNetwork_Example.debug.xcconfig */,
-				4D670A98E6BB1036B36B4DE712ABF3B1 /* Pods-LindaNetwork_Example.release.xcconfig */,
+				B8772D692199B485C67E505FA5ECC60E /* LindaNetwork */,
+				AFAF8EE52F33DB2D4A2210E0844F9DA3 /* Support Files */,
+			);
+			name = LindaNetwork;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		09380EA71E3EBD81A87882157DB36C71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F7E7AA6421624B924EC89C2FF8A431 /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0EB10B7A1CD54BD25F40C988BD5C33CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8EF5470A02991650B65ACC8AAE40C677 /* CoreFoundation.framework */,
+				8B941AC315E531198F14455C0DD0B0E8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		15718C247943C741DF5BFA7D844E75EF /* Pods-LindaNetwork_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6CE62E772E7E6664895292E7E02A5B60 /* Pods-LindaNetwork_Example-acknowledgements.markdown */,
+				660B77BFD55363852C1B6F56DACD20EA /* Pods-LindaNetwork_Example-acknowledgements.plist */,
+				067F94AEF3823A9133DDDCF7A3D754E9 /* Pods-LindaNetwork_Example-dummy.m */,
+				CC77611C461125FC1ECD5759991D6B82 /* Pods-LindaNetwork_Example-frameworks.sh */,
+				0B1F565CC26C6C851BF01AC37B38728A /* Pods-LindaNetwork_Example-resources.sh */,
+				FE45F63B4230E81715EBD016097D3505 /* Pods-LindaNetwork_Example.debug.xcconfig */,
+				2750021BD79A487700207063FCBB9635 /* Pods-LindaNetwork_Example.release.xcconfig */,
 			);
 			name = "Pods-LindaNetwork_Example";
 			path = "Target Support Files/Pods-LindaNetwork_Example";
 			sourceTree = "<group>";
 		};
-		69E9B378E4B60197FC56FF132B91CFC3 /* Pods-LindaNetwork_Tests */ = {
+		15E5B6A95ECAC6564DC5026369B0BBA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7EA4A3947445AA145997C98DD68A9D1 /* Info.plist */,
-				371E2A47A8CA8B1947C79B4898032632 /* Pods-LindaNetwork_Tests.modulemap */,
-				7B3EDFDC4D60700CE6B15EE06E98900D /* Pods-LindaNetwork_Tests-acknowledgements.markdown */,
-				2A47ACBC0CF6EC52E20D84038B9D45B3 /* Pods-LindaNetwork_Tests-acknowledgements.plist */,
-				F711CF090A4F6C731708978D32452BA8 /* Pods-LindaNetwork_Tests-dummy.m */,
-				318F37AF2FADC1DC101F7C069CA416F4 /* Pods-LindaNetwork_Tests-frameworks.sh */,
-				67599447F4E00C4F27E53ADD31D7F2D3 /* Pods-LindaNetwork_Tests-resources.sh */,
-				796AE5EF36951458DC96DF3F187D10C5 /* Pods-LindaNetwork_Tests-umbrella.h */,
-				8EA7896603943649819CE80742616DAA /* Pods-LindaNetwork_Tests.debug.xcconfig */,
-				0E7EE98A460F1F28137C292E04C4805A /* Pods-LindaNetwork_Tests.release.xcconfig */,
+				64851B2194EF512702E986EF31E2A714 /* libLindaNetwork.a */,
+				4F6F71B648BE74D12CEDE2C1C98212B7 /* libPods-LindaNetwork_Example.a */,
+				5AC5D2DC56373D46A9D1DA4D5E0B9739 /* libPods-LindaNetwork_Tests.a */,
+				05E50A72B7D1655CAF3EA2BE7EDDB33B /* libYYModel.a */,
 			);
-			name = "Pods-LindaNetwork_Tests";
-			path = "Target Support Files/Pods-LindaNetwork_Tests";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35B568A91DCAEB44D87019A7557189A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15718C247943C741DF5BFA7D844E75EF /* Pods-LindaNetwork_Example */,
+				A87653A1F1D48897C0C44CF91F98C23A /* Pods-LindaNetwork_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB10B7A1CD54BD25F40C988BD5C33CB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D735DBF8A622B8637311EA805F3E335 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31839E809B2B8321272D2649C0FC8CCF /* YYModel.xcconfig */,
+				D10ADCC380C1C28DF2251EE5012D5C5E /* YYModel-dummy.m */,
+				FD535BDCFAA6B0A4C35FBB09CC97724A /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -155,110 +222,95 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FFC014EE2F84A812C78FF9B13C529419 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DEB6EA7CF15F27F60356BB4E928BFE4C /* Products */,
-				ACC276AF0BB0B8A92BFD6DAEA80109CC /* Targets Support Files */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				09380EA71E3EBD81A87882157DB36C71 /* Pods */,
+				15E5B6A95ECAC6564DC5026369B0BBA2 /* Products */,
+				35B568A91DCAEB44D87019A7557189A8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81B95D858EDF04106F889681226EA32F /* LindaNetwork */ = {
+		7EF4F26130DC5B0714962303E2EC0A5A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E549D6FC1E489A645BF1512276BFD9A1 /* Classes */,
+				D2F9D8D62B81686AF6449CE8F675E59F /* LDAPITool.h */,
+				8DD2FAB7E31A86CABCCAC13B88B3D2BB /* LDAPITool.m */,
+				A60A78443C4A17E6FC10310263E10F56 /* LDHttpClient.h */,
+				918C2F421D20CEB32250DA58201E53F5 /* LDHttpClient.m */,
+				D326A15809BB9C179A4E9F8CB955C56C /* LDRequest.h */,
+				681888D185ED78209F81D9DDBCEBAD55 /* LDRequest.m */,
+				16E9829EC2749FC3EAE25F94A1AEA072 /* LDRequestBuilder.h */,
+				5DD242D9F513592AC464A45E47032FED /* LDRequestBuilder.m */,
+				5051D8C2708F0CCF96799465CA0B490B /* LDResponse.h */,
+				E9A3833970200B586984F179E2C82868 /* LDResponse.m */,
+				D6613B050C07E007CF980B3837E05E13 /* Serialization */,
 			);
-			path = LindaNetwork;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		83450F461F3D9AD100655325 /* Serialization */ = {
+		A87653A1F1D48897C0C44CF91F98C23A /* Pods-LindaNetwork_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				83450F471F3D9AD100655325 /* LDURLRequestSerialization.h */,
-				83450F481F3D9AD100655325 /* LDURLRequestSerialization.m */,
+				1F35EA7023FF0FE5CDA66835D26106CB /* Pods-LindaNetwork_Tests-acknowledgements.markdown */,
+				DD619C5B1DE95E904991C4DB43BC5F74 /* Pods-LindaNetwork_Tests-acknowledgements.plist */,
+				C98483E009B1E8F2A30946277D864DC8 /* Pods-LindaNetwork_Tests-dummy.m */,
+				55BBA04CCB7943944D7FB9FDFCDE6D47 /* Pods-LindaNetwork_Tests-frameworks.sh */,
+				8C80CA42201B6D58737472E90E65974C /* Pods-LindaNetwork_Tests-resources.sh */,
+				DECEE8BA4FEE1CCD6BE2BA520A29203D /* Pods-LindaNetwork_Tests.debug.xcconfig */,
+				44D240EAA6B989D683CF7386128500CC /* Pods-LindaNetwork_Tests.release.xcconfig */,
 			);
-			path = Serialization;
+			name = "Pods-LindaNetwork_Tests";
+			path = "Target Support Files/Pods-LindaNetwork_Tests";
 			sourceTree = "<group>";
 		};
-		A70FA7283BB6FCC3E670931B2B6231AA /* Support Files */ = {
+		AFAF8EE52F33DB2D4A2210E0844F9DA3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1BF68B58EB045AD4A3852BF90617E9C1 /* Info.plist */,
-				3BB2A6D148B9BBB0FDF99ACF64329A40 /* LindaNetwork.modulemap */,
-				B58F52318B748D738BA1B86994E776BA /* LindaNetwork.xcconfig */,
-				8C21170ED55BF0C1D35799BF5D0AAA90 /* LindaNetwork-dummy.m */,
-				E5ECF530A58C678234EEA04E056DD52F /* LindaNetwork-prefix.pch */,
-				24AF9B470F6F91BEDB1215CEF49385B5 /* LindaNetwork-umbrella.h */,
+				F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */,
+				ABB23AAAA436A61A29B5C8095C9EA5EC /* LindaNetwork-dummy.m */,
+				A919B6B4F695E08D76178CBFC9EDB1F6 /* LindaNetwork-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LindaNetwork";
 			sourceTree = "<group>";
 		};
-		ACC276AF0BB0B8A92BFD6DAEA80109CC /* Targets Support Files */ = {
+		B8772D692199B485C67E505FA5ECC60E /* LindaNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				2DA6A3C505F0284461C95D2670D556FB /* Pods-LindaNetwork_Example */,
-				69E9B378E4B60197FC56FF132B91CFC3 /* Pods-LindaNetwork_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DEB6EA7CF15F27F60356BB4E928BFE4C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E98B65498F4C396716B6196C929972A3 /* LindaNetwork.framework */,
-				6859C213EE80647D880370A60C021A65 /* Pods_LindaNetwork_Example.framework */,
-				D99C48BCACD9CD2F5545F27D63F6DA9B /* Pods_LindaNetwork_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E549D6FC1E489A645BF1512276BFD9A1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				83450F3C1F3D9AD100655325 /* LDAPITool.h */,
-				83450F3D1F3D9AD100655325 /* LDAPITool.m */,
-				83450F3E1F3D9AD100655325 /* LDHttpClient.h */,
-				83450F3F1F3D9AD100655325 /* LDHttpClient.m */,
-				83450F401F3D9AD100655325 /* LDRequest.h */,
-				83450F411F3D9AD100655325 /* LDRequest.m */,
-				83450F421F3D9AD100655325 /* LDRequestBuilder.h */,
-				83450F431F3D9AD100655325 /* LDRequestBuilder.m */,
-				83450F441F3D9AD100655325 /* LDResponse.h */,
-				83450F451F3D9AD100655325 /* LDResponse.m */,
-				83450F461F3D9AD100655325 /* Serialization */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F4DF41077A1E14AE40FE34A99C0774CA /* LindaNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				81B95D858EDF04106F889681226EA32F /* LindaNetwork */,
-				A70FA7283BB6FCC3E670931B2B6231AA /* Support Files */,
+				7EF4F26130DC5B0714962303E2EC0A5A /* Classes */,
 			);
 			name = LindaNetwork;
-			path = ../..;
+			path = LindaNetwork;
+			sourceTree = "<group>";
+		};
+		D6613B050C07E007CF980B3837E05E13 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				15F2567BBB8CDC238B1A20CF8EB3D7BE /* LDURLRequestSerialization.h */,
+				624990729D3F366517C8A583C7B54DC8 /* LDURLRequestSerialization.m */,
+			);
+			name = Serialization;
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		E5F7E7AA6421624B924EC89C2FF8A431 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				11970526A8B1A6822C3AF3D0FBCB605A /* NSObject+YYModel.h */,
+				4CA05213ABDAD1463D5999A67C0C8647 /* NSObject+YYModel.m */,
+				744D2183AE239C7C8329C9599802AF79 /* YYClassInfo.h */,
+				A6D653E82F3B41AD2EEA39CDF63C74DA /* YYClassInfo.m */,
+				4574A1CC7237F4EA8DDF35E8341C80BD /* YYModel.h */,
+				7D735DBF8A622B8637311EA805F3E335 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 		FFC014EE2F84A812C78FF9B13C529419 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4DF41077A1E14AE40FE34A99C0774CA /* LindaNetwork */,
+				086DB9B66829FC7581A6E49568FE6D97 /* LindaNetwork */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -266,46 +318,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C2E2F7781E12403D8AD742F5C4C3F6B /* Headers */ = {
+		19B3454668546EA744CF05825E3D1D72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BDC4512F2F826209DC242F3BC4F458 /* Pods-LindaNetwork_Example-umbrella.h in Headers */,
+				AF67DE9691E16766D86F04AEE3D247A7 /* LDAPITool.h in Headers */,
+				837DE67B319920D85998ED1BBCF4D9F4 /* LDHttpClient.h in Headers */,
+				93966E063B98F818F72446BFD9379FE0 /* LDRequest.h in Headers */,
+				FA6C4B78FF3085902572DD99E4F6FBA1 /* LDRequestBuilder.h in Headers */,
+				DE09CFFE1109D63FF5A7E9CF34DCAE46 /* LDResponse.h in Headers */,
+				6822EC76F8A0C9086CB07B9550717390 /* LDURLRequestSerialization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		474AD3403D9EADC54F1F50480FA70DC5 /* Headers */ = {
+		DEC19590C254C08B1CC6C6CD938F6F66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83450F4B1F3D9AD100655325 /* LDHttpClient.h in Headers */,
-				83450F4F1F3D9AD100655325 /* LDRequestBuilder.h in Headers */,
-				4C2A723FF570040F0A9672CAF62FF0B8 /* LindaNetwork-umbrella.h in Headers */,
-				83450F4D1F3D9AD100655325 /* LDRequest.h in Headers */,
-				83450F531F3D9AD100655325 /* LDURLRequestSerialization.h in Headers */,
-				83450F491F3D9AD100655325 /* LDAPITool.h in Headers */,
-				83450F511F3D9AD100655325 /* LDResponse.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB663E88FE6DDF868E0D666E52357C5D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15E9C44E3EDE1FBCE801B3DF1EAF43B7 /* Pods-LindaNetwork_Tests-umbrella.h in Headers */,
+				3D9055F128C5CEAA1FE9AD41107C14DE /* NSObject+YYModel.h in Headers */,
+				41B002D878A8A9DD2FDE27EE3BC4A89F /* YYClassInfo.h in Headers */,
+				E1EE901CE7E957C2F110257F21D6C6B2 /* YYModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CF9BB74E57CA5AC84ECFF8A5B0168BD /* LindaNetwork */ = {
+		954C45E99026311D5B1AE42BF06C0818 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A61EFD41ADA7FC55E75D47B24E05DE32 /* Build configuration list for PBXNativeTarget "LindaNetwork" */;
+			buildConfigurationList = 4CAB9B1B6F08A89AF0CFC2548DDEFC93 /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				656297FCFE23B880C1B937CC791966AD /* Sources */,
-				7F8641DD5EF111D090B8AB7E86D5CF5D /* Frameworks */,
-				474AD3403D9EADC54F1F50480FA70DC5 /* Headers */,
+				FF1202C804EFF7EC34F40730A16133F4 /* Sources */,
+				295EDD1C5BA96B2C49CD2F43B5CCDB86 /* Frameworks */,
+				DEC19590C254C08B1CC6C6CD938F6F66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = 05E50A72B7D1655CAF3EA2BE7EDDB33B /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4AC2C29564EF4A286FD11AB8B6E1C28 /* Pods-LindaNetwork_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6AD5E9ADEBDACFBFC81E2D83D87E35 /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Example" */;
+			buildPhases = (
+				49E9AF536493B2AA40D2A13CCC44B08D /* Sources */,
+				57E2D0FBB23C409F870640D8C189B5DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A53C07D68A17F1DFC867315D6FBDA5 /* PBXTargetDependency */,
+				B6805D7BAA23C5283BDE855D6B33434A /* PBXTargetDependency */,
+			);
+			name = "Pods-LindaNetwork_Example";
+			productName = "Pods-LindaNetwork_Example";
+			productReference = 4F6F71B648BE74D12CEDE2C1C98212B7 /* libPods-LindaNetwork_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE9439DD342EE2BB69578F16101FC358 /* LindaNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3B1410F7EABDE2112D8ED7025E2224 /* Build configuration list for PBXNativeTarget "LindaNetwork" */;
+			buildPhases = (
+				E681F9AE4921AAE896A4F3F20C0563CA /* Sources */,
+				24F58867F1D979B0553952EFE2443B01 /* Frameworks */,
+				19B3454668546EA744CF05825E3D1D72 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -313,34 +393,15 @@
 			);
 			name = LindaNetwork;
 			productName = LindaNetwork;
-			productReference = E98B65498F4C396716B6196C929972A3 /* LindaNetwork.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 64851B2194EF512702E986EF31E2A714 /* libLindaNetwork.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		26D3A65606ACC17EDCD6A600EAD7DCA4 /* Pods-LindaNetwork_Example */ = {
+		EAC6AC6AF087EC9C969828EFD351088A /* Pods-LindaNetwork_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 543BCD062E4BBC73BE0FA09BBFB05313 /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Example" */;
+			buildConfigurationList = 644C7741353A08C5EBD4FB89E4773C6F /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Tests" */;
 			buildPhases = (
-				37B3E1FF5FDAB149A0FEC6F20DF1AB3C /* Sources */,
-				977C5C06FBD44D9538C94D551F140D9C /* Frameworks */,
-				0C2E2F7781E12403D8AD742F5C4C3F6B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58B12A0F92FA1282DCB2080D38A05EB5 /* PBXTargetDependency */,
-			);
-			name = "Pods-LindaNetwork_Example";
-			productName = "Pods-LindaNetwork_Example";
-			productReference = 6859C213EE80647D880370A60C021A65 /* Pods_LindaNetwork_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4A5B2AB25E0C369584093F00CA20B6BB /* Pods-LindaNetwork_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B5CDBAE52ED9B4227473D542CA88CB4 /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Tests" */;
-			buildPhases = (
-				117A080859F8ED337C694F88E3EF8768 /* Sources */,
-				73D6A4BDBC4D9780F1ABAEB034914E92 /* Frameworks */,
-				FB663E88FE6DDF868E0D666E52357C5D /* Headers */,
+				953C4F24971BBBC39738AA224D93AFBF /* Sources */,
+				26487E28DF4C2CCD4C191B41E0302DF9 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,8 +409,8 @@
 			);
 			name = "Pods-LindaNetwork_Tests";
 			productName = "Pods-LindaNetwork_Tests";
-			productReference = D99C48BCACD9CD2F5545F27D63F6DA9B /* Pods_LindaNetwork_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 5AC5D2DC56373D46A9D1DA4D5E0B9739 /* libPods-LindaNetwork_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -368,89 +429,97 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DEB6EA7CF15F27F60356BB4E928BFE4C /* Products */;
+			productRefGroup = 15E5B6A95ECAC6564DC5026369B0BBA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CF9BB74E57CA5AC84ECFF8A5B0168BD /* LindaNetwork */,
-				26D3A65606ACC17EDCD6A600EAD7DCA4 /* Pods-LindaNetwork_Example */,
-				4A5B2AB25E0C369584093F00CA20B6BB /* Pods-LindaNetwork_Tests */,
+				DE9439DD342EE2BB69578F16101FC358 /* LindaNetwork */,
+				A4AC2C29564EF4A286FD11AB8B6E1C28 /* Pods-LindaNetwork_Example */,
+				EAC6AC6AF087EC9C969828EFD351088A /* Pods-LindaNetwork_Tests */,
+				954C45E99026311D5B1AE42BF06C0818 /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		117A080859F8ED337C694F88E3EF8768 /* Sources */ = {
+		49E9AF536493B2AA40D2A13CCC44B08D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8FB16737DED7026D8E21B654D13AF0 /* Pods-LindaNetwork_Tests-dummy.m in Sources */,
+				A75557E28E554EC9682F6CDBDF430D74 /* Pods-LindaNetwork_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B3E1FF5FDAB149A0FEC6F20DF1AB3C /* Sources */ = {
+		953C4F24971BBBC39738AA224D93AFBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD441D72B1F580BBFE4CD3595AF6661 /* Pods-LindaNetwork_Example-dummy.m in Sources */,
+				52AFC060F415B19878312CDACEB9F4C1 /* Pods-LindaNetwork_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		656297FCFE23B880C1B937CC791966AD /* Sources */ = {
+		E681F9AE4921AAE896A4F3F20C0563CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83450F541F3D9AD100655325 /* LDURLRequestSerialization.m in Sources */,
-				83450F521F3D9AD100655325 /* LDResponse.m in Sources */,
-				83450F4A1F3D9AD100655325 /* LDAPITool.m in Sources */,
-				83450F501F3D9AD100655325 /* LDRequestBuilder.m in Sources */,
-				83450F4C1F3D9AD100655325 /* LDHttpClient.m in Sources */,
-				AB9879AF363C1A4DCFEA6335B265B756 /* LindaNetwork-dummy.m in Sources */,
-				83450F4E1F3D9AD100655325 /* LDRequest.m in Sources */,
+				B24070DE9E7B6B96F340E59C3B17B62A /* LDAPITool.m in Sources */,
+				6599D8EDE2A2B1726B8317980B37EFA5 /* LDHttpClient.m in Sources */,
+				C6494B1A8D326D4E4EF87FE6175F1400 /* LDRequest.m in Sources */,
+				AB0C9663773395619FE06B7F3379AE37 /* LDRequestBuilder.m in Sources */,
+				453DCF74FCFCEE95DC58CF7DD259C3CE /* LDResponse.m in Sources */,
+				9935C1FDAFAC02261AEBD3A20C272298 /* LDURLRequestSerialization.m in Sources */,
+				1470411559A2AB2FFB0379BD571BE39C /* LindaNetwork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1202C804EFF7EC34F40730A16133F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636746DC158C6729A5EB800617AB91D0 /* NSObject+YYModel.m in Sources */,
+				2854A9781B9AA2D587F397BD2EF9D326 /* YYClassInfo.m in Sources */,
+				C7DD78A819196214B9604592C5CEA779 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		58B12A0F92FA1282DCB2080D38A05EB5 /* PBXTargetDependency */ = {
+		10A53C07D68A17F1DFC867315D6FBDA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LindaNetwork;
-			target = 0CF9BB74E57CA5AC84ECFF8A5B0168BD /* LindaNetwork */;
-			targetProxy = 1C21280482531820046F496EC8A3DA79 /* PBXContainerItemProxy */;
+			target = DE9439DD342EE2BB69578F16101FC358 /* LindaNetwork */;
+			targetProxy = 9E7CF369D1CE14B7582D325FC7A1E273 /* PBXContainerItemProxy */;
+		};
+		B6805D7BAA23C5283BDE855D6B33434A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 954C45E99026311D5B1AE42BF06C0818 /* YYModel */;
+			targetProxy = F9F76B7D022720E618ACE17E0732D8FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2DACB70C5BA380BFE8AC457515123B52 /* Debug */ = {
+		24CBA2771DCEAE1560A525E8E2160F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58F52318B748D738BA1B86994E776BA /* LindaNetwork.xcconfig */;
+			baseConfigurationReference = F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LindaNetwork/LindaNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LindaNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LindaNetwork/LindaNetwork.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LindaNetwork;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -502,41 +571,28 @@
 			};
 			name = Debug;
 		};
-		517883F51C3C5A44589484F1B4818BC0 /* Debug */ = {
+		6D66FB53CD175D16EFC68E6957D5E0C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D1A0C67DC5DF0CF9AB1E5A82A268F75 /* Pods-LindaNetwork_Example.debug.xcconfig */;
+			baseConfigurationReference = F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LindaNetwork_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LindaNetwork_Example/Pods-LindaNetwork_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LindaNetwork/LindaNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LindaNetwork_Example;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -582,143 +638,141 @@
 			};
 			name = Release;
 		};
-		98D0775DB294A30FBCD0CFF97FFC2781 /* Debug */ = {
+		7C709549ABD998E085A343227076C17A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EA7896603943649819CE80742616DAA /* Pods-LindaNetwork_Tests.debug.xcconfig */;
+			baseConfigurationReference = DECEE8BA4FEE1CCD6BE2BA520A29203D /* Pods-LindaNetwork_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LindaNetwork_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LindaNetwork_Tests/Pods-LindaNetwork_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LindaNetwork_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9AAB761A198002F41BB7C1CE4BCDD25B /* Release */ = {
+		BEE611DBC1C87279DE01585897348506 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58F52318B748D738BA1B86994E776BA /* LindaNetwork.xcconfig */;
+			baseConfigurationReference = 31839E809B2B8321272D2649C0FC8CCF /* YYModel.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LindaNetwork/LindaNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LindaNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LindaNetwork/LindaNetwork.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LindaNetwork;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C8FDBC3F0C42962953CDF9333A667360 /* Release */ = {
+		C4A8426B6BB7EB274CF9BC942346B276 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D670A98E6BB1036B36B4DE712ABF3B1 /* Pods-LindaNetwork_Example.release.xcconfig */;
+			baseConfigurationReference = 44D240EAA6B989D683CF7386128500CC /* Pods-LindaNetwork_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LindaNetwork_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LindaNetwork_Example/Pods-LindaNetwork_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LindaNetwork_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F60216E614A46BF8B4D1179F5385F0FD /* Release */ = {
+		E63CB7D84FF6A1366DF1BA85C59BF123 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E7EE98A460F1F28137C292E04C4805A /* Pods-LindaNetwork_Tests.release.xcconfig */;
+			baseConfigurationReference = FE45F63B4230E81715EBD016097D3505 /* Pods-LindaNetwork_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LindaNetwork_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LindaNetwork_Tests/Pods-LindaNetwork_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAE569BF506C240F045EFE6207310232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31839E809B2B8321272D2649C0FC8CCF /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FFE5BF8E015458A243429460196AA501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2750021BD79A487700207063FCBB9635 /* Pods-LindaNetwork_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LindaNetwork_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -734,29 +788,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		543BCD062E4BBC73BE0FA09BBFB05313 /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Example" */ = {
+		3D3B1410F7EABDE2112D8ED7025E2224 /* Build configuration list for PBXNativeTarget "LindaNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				517883F51C3C5A44589484F1B4818BC0 /* Debug */,
-				C8FDBC3F0C42962953CDF9333A667360 /* Release */,
+				24CBA2771DCEAE1560A525E8E2160F47 /* Debug */,
+				6D66FB53CD175D16EFC68E6957D5E0C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B5CDBAE52ED9B4227473D542CA88CB4 /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Tests" */ = {
+		4CAB9B1B6F08A89AF0CFC2548DDEFC93 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98D0775DB294A30FBCD0CFF97FFC2781 /* Debug */,
-				F60216E614A46BF8B4D1179F5385F0FD /* Release */,
+				BEE611DBC1C87279DE01585897348506 /* Debug */,
+				FAE569BF506C240F045EFE6207310232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A61EFD41ADA7FC55E75D47B24E05DE32 /* Build configuration list for PBXNativeTarget "LindaNetwork" */ = {
+		5A6AD5E9ADEBDACFBFC81E2D83D87E35 /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DACB70C5BA380BFE8AC457515123B52 /* Debug */,
-				9AAB761A198002F41BB7C1CE4BCDD25B /* Release */,
+				E63CB7D84FF6A1366DF1BA85C59BF123 /* Debug */,
+				FFE5BF8E015458A243429460196AA501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644C7741353A08C5EBD4FB89E4773C6F /* Build configuration list for PBXNativeTarget "Pods-LindaNetwork_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C709549ABD998E085A343227076C17A /* Debug */,
+				C4A8426B6BB7EB274CF9BC942346B276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

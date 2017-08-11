@@ -2,7 +2,8 @@
 
 target 'LindaNetwork_Example' do
   pod 'LindaNetwork', :path => '../'
-
+  pod 'YYModel'
+  
   target 'LindaNetwork_Tests' do
     inherit! :search_paths
 
