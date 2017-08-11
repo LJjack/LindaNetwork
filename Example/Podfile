@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LindaNetwork_Example' do
+  pod 'LindaNetwork', :path => '../'
+
+  target 'LindaNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
