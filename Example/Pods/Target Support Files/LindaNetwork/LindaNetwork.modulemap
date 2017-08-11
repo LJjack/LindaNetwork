@@ -1,0 +1,6 @@
+framework module LindaNetwork {
+  umbrella header "LindaNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - LindaNetwork (0.1.0)
+
+DEPENDENCIES:
+  - LindaNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  LindaNetwork:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LindaNetwork: 4c717534d9fbbead58d812f79d90f99f6dce425a
+
+PODFILE CHECKSUM: ba5327bf910482b1c24570d9b4890eebf4c3a6c5
+
+COCOAPODS: 1.2.1

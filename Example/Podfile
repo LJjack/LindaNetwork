@@ -1,4 +1,4 @@
-use_frameworks!
+
 
 target 'LindaNetwork_Example' do
   pod 'LindaNetwork', :path => '../'
