@@ -13,9 +13,9 @@
 		197B954785A3AA80505B8D928678EAFD /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C356C70A81C2EEB28DBD408FC8D886F /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A1882F127C392CE4E92F9B567C40E51 /* LDHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F421E9FCAFDC2527F0BD08A3A3F5BD /* LDHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CBD569F4139E12B21E7BEB7D2422366 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA744B9830B2F1E47BC91E7A2DDE8C /* YYCache-dummy.m */; };
-		36E6B2C3C51E16D4B99E16242A778B14 /* LDAPITool.h in Headers */ = {isa = PBXBuildFile; fileRef = 952B13D6B0716ECD368826605AFBC5F3 /* LDAPITool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		398BB50310403AD05FEAE805A35B7914 /* NSString+LJHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC89BA1A741D3E5FC2EAC826A1DCEB1 /* NSString+LJHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FDBE65F37AEB984C311841D19D8EE95 /* LDURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F4A8584550CA0450CBDB99EEA0034E /* LDURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E6B2C3C51E16D4B99E16242A778B14 /* LDAPITool.h in Headers */ = {isa = PBXBuildFile; fileRef = 952B13D6B0716ECD368826605AFBC5F3 /* LDAPITool.h */; };
+		398BB50310403AD05FEAE805A35B7914 /* NSString+LJHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC89BA1A741D3E5FC2EAC826A1DCEB1 /* NSString+LJHash.h */; };
+		3FDBE65F37AEB984C311841D19D8EE95 /* LDURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F4A8584550CA0450CBDB99EEA0034E /* LDURLRequestSerialization.h */; };
 		3FFD7450212A2775A2A08F498D69F263 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D14BBD75066DA81A14430E9745A33BB9 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445EEF212229E7D7520C1535E87AC797 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AF048822E3EB6C18D0FEF4F0565A760B /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47EE0D2AF4F037839DE5A3E01AECE8FF /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD9680660D1F5D84878B67DD32C06E3 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,7 +36,7 @@
 		96C981A7F0598495B8E86DC829CA198E /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C714C3BD69D9AC467BA88F7EA379ADF /* YYKVStorage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		97C1E53841D2B481683065C5D085146C /* LDRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CC695791C9A971495CD2B5C34696 /* LDRequestBuilder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A8DEB6292708945A223D4884DAABF41B /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E046A175C8E8A3C964D1F8AB1E68F /* YYCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A92802E11899EF69319AD3686DF1C1C4 /* LDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3577A7661FBADBF4903D0C13040C9CEC /* LDRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92802E11899EF69319AD3686DF1C1C4 /* LDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3577A7661FBADBF4903D0C13040C9CEC /* LDRequest.h */; };
 		B22D4BCA79BC935317AE955DA9403CA1 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0528ACB7A9EFFAD6CA23D761128F23D9 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3EF78C8B3BA040FEFBD6E87E8DB51D8 /* Pods-LindaNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067F94AEF3823A9133DDDCF7A3D754E9 /* Pods-LindaNetwork_Example-dummy.m */; };
 		B40CF941777CF050BCA2DBE2EDC9943F /* NSString+LJHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D8CA1043B1A9EBFD4BDC6FF1BEFA8 /* NSString+LJHash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -98,7 +98,7 @@
 		1D7E715577B35C02FC26E5CDE4FAE6F6 /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
 		1F35EA7023FF0FE5CDA66835D26106CB /* Pods-LindaNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LindaNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2750021BD79A487700207063FCBB9635 /* Pods-LindaNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		28612A20D4616229B5797CFB2075FD21 /* libPods-LindaNetwork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LindaNetwork_Tests.a"; path = "libPods-LindaNetwork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28612A20D4616229B5797CFB2075FD21 /* libPods-LindaNetwork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LindaNetwork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3577A7661FBADBF4903D0C13040C9CEC /* LDRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDRequest.h; sourceTree = "<group>"; };
 		3AC89BA1A741D3E5FC2EAC826A1DCEB1 /* NSString+LJHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LJHash.h"; sourceTree = "<group>"; };
 		441918B992C25577243865252B74070B /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
@@ -120,13 +120,13 @@
 		8C80CA42201B6D58737472E90E65974C /* Pods-LindaNetwork_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Tests-resources.sh"; sourceTree = "<group>"; };
 		8DC118A3528F77AFF55D6BC065CF7D6C /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		8F6D0D49170CD74482CC9C4B32BB3CD4 /* LDAPITool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDAPITool.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952B13D6B0716ECD368826605AFBC5F3 /* LDAPITool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDAPITool.h; sourceTree = "<group>"; };
 		96BA744B9830B2F1E47BC91E7A2DDE8C /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
 		9A3ACCAC6554143BF70B3B12FDFCD85F /* LDRequestBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDRequestBuilder.h; sourceTree = "<group>"; };
 		9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D8D8CA1043B1A9EBFD4BDC6FF1BEFA8 /* NSString+LJHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LJHash.m"; sourceTree = "<group>"; };
-		A50B61CACE0B5739BC08D58E70BDB6F7 /* libPods-LindaNetwork_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LindaNetwork_Example.a"; path = "libPods-LindaNetwork_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B61CACE0B5739BC08D58E70BDB6F7 /* libPods-LindaNetwork_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LindaNetwork_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F4A8584550CA0450CBDB99EEA0034E /* LDURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDURLRequestSerialization.h; sourceTree = "<group>"; };
 		A919B6B4F695E08D76178CBFC9EDB1F6 /* LindaNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LindaNetwork-prefix.pch"; sourceTree = "<group>"; };
 		ABB23AAAA436A61A29B5C8095C9EA5EC /* LindaNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LindaNetwork-dummy.m"; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 		B8275EE742190E194B6EE235D7FAA394 /* LDResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDResponse.h; sourceTree = "<group>"; };
 		BB2EDE3387433454E86CBAA639885096 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		C0DB88E5B3734D8B9C816DBF93B34281 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
-		C6A515AF301F65DC4379250CF6AA1B9A /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYCache.a; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7FC1278950B52576B79A1F70F06A043 /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A515AF301F65DC4379250CF6AA1B9A /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FC1278950B52576B79A1F70F06A043 /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98483E009B1E8F2A30946277D864DC8 /* Pods-LindaNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LindaNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA4E046A175C8E8A3C964D1F8AB1E68F /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 		CC77611C461125FC1ECD5759991D6B82 /* Pods-LindaNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LindaNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		DD619C5B1DE95E904991C4DB43BC5F74 /* Pods-LindaNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LindaNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DECEE8BA4FEE1CCD6BE2BA520A29203D /* Pods-LindaNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7C445B36F430FFB08484B0395A6193F /* LindaNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LindaNetwork.xcconfig; sourceTree = "<group>"; };
-		FAA902BADBDFF5ACD6B8DF9865D88D38 /* libLindaNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLindaNetwork.a; path = libLindaNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA902BADBDFF5ACD6B8DF9865D88D38 /* libLindaNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLindaNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE2CC695791C9A971495CD2B5C34696 /* LDRequestBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDRequestBuilder.m; sourceTree = "<group>"; };
 		FD6ECA16A2B96649D03C9CD624E57789 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
 		FE45F63B4230E81715EBD016097D3505 /* Pods-LindaNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LindaNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,7 +205,6 @@
 				A8F4A8584550CA0450CBDB99EEA0034E /* LDURLRequestSerialization.h */,
 				64C718E73FAEE4A9712A5A246D86EDBD /* LDURLRequestSerialization.m */,
 			);
-			name = Serialization;
 			path = Serialization;
 			sourceTree = "<group>";
 		};
@@ -272,7 +271,6 @@
 				4BD9680660D1F5D84878B67DD32C06E3 /* YYModel.h */,
 				A5D0519E1B69F811EDF63F6323E6BE0D /* Support Files */,
 			);
-			name = YYModel;
 			path = YYModel;
 			sourceTree = "<group>";
 		};
@@ -313,7 +311,6 @@
 				1CCC69E4BBDB5593C75E722B8644F843 /* YYMemoryCache.m */,
 				3EE2E0ED5EED00A213E972AAC0F61E9D /* Support Files */,
 			);
-			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -334,7 +331,6 @@
 				9D8D8CA1043B1A9EBFD4BDC6FF1BEFA8 /* NSString+LJHash.m */,
 				0772B09CDEDEB19D1AADF518AFE50C10 /* Serialization */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -378,7 +374,6 @@
 			children = (
 				8BEFA447328E557ABF53E2DD43E57446 /* Classes */,
 			);
-			name = LindaNetwork;
 			path = LindaNetwork;
 			sourceTree = "<group>";
 		};
@@ -440,12 +435,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E6B2C3C51E16D4B99E16242A778B14 /* LDAPITool.h in Headers */,
 				2A1882F127C392CE4E92F9B567C40E51 /* LDHttpClient.h in Headers */,
-				A92802E11899EF69319AD3686DF1C1C4 /* LDRequest.h in Headers */,
 				143FA3D21C8802DD80F9E03654A54E95 /* LDRequestBuilder.h in Headers */,
 				8419E4FA15FC4A7D57C5BA48108C11F0 /* LDResponse.h in Headers */,
 				3FDBE65F37AEB984C311841D19D8EE95 /* LDURLRequestSerialization.h in Headers */,
+				A92802E11899EF69319AD3686DF1C1C4 /* LDRequest.h in Headers */,
+				36E6B2C3C51E16D4B99E16242A778B14 /* LDAPITool.h in Headers */,
 				398BB50310403AD05FEAE805A35B7914 /* NSString+LJHash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
